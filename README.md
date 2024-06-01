@@ -9,6 +9,7 @@ In this assignment we will implement a multi-layer perceptron using purely NumPy
 * train_mlp_numpy.py
 * modules.py
 * mlp_numpy.py
+
 Part of the success of neural networks is the high efficiency on graphical processing units (GPUs) through matrix multiplications. Therefore, we will use matrix multiplications rather than iterating over samples in the batch or weight rows/columns. 
 We will provide the achieved test accuracy and loss curve for the for the default values of parameters (one hidden layer, 128 hidden units, 10 epochs, learning rate 0.1).
 
@@ -17,6 +18,7 @@ We will provide the achieved test accuracy and loss curve for the for the defaul
 We will implement the same MLP in pytorch by following the instructions inside the file:
 * train_mlp_pytorch.py
 * mlp_pytorch.py
+
 The interface is similar to mlp_numpy.py.
 Using the same parameters as in Question 3, we should get similar accuracy on the test set. We will provide the achieved test accuracy and loss curve for the default values of parameters (one layer, 128 hidden units, 10 epochs, no batch normalization, learning rate 0.1).
 
