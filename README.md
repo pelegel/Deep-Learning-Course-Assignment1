@@ -4,6 +4,7 @@
 The goal of the first sections in this assignment is to practice index notation as it is used in linear algebra. 
 In the final section, vector calculus will be applied to an MLP in order to derive the equations of backpropagation for the basic modules in a vanilla neural network.
 
+
 ### Question 3 - NumPy implementation
 In this assignment we will implement a multi-layer perceptron using purely NumPy routines. The network should consist of a series of linear layers with ReLU activation functions followed by a final linear layer and softmax activation. As a loss function, we will use the common cross-entropy loss for classification tasks. To optimize our network we will use the mini-batch stochastic gradient descent algorithm. The code is implemented in the files:
 * train_mlp_numpy.py
