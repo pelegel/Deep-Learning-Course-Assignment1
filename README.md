@@ -1,5 +1,5 @@
 # Assignment 1. MLPs and Backpropagation
-### BGU IEM Introduction to Deep Learning - 2023
+#### BGU IEM Introduction to Deep Learning - 2023
 
 The goal of the first sections in this assignment is to practice index notation as it is used in linear algebra. 
 In the final section, vector calculus will be applied to an MLP in order to derive the equations of backpropagation for the basic modules in a vanilla neural network.
